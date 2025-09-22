@@ -1,0 +1,44 @@
+body {
+  margin: 10px;
+  background-color: rgb(46, 46, 46);
+  color: whitesmoke;
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Bitcount Grid Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0, "SZP1" 0,
+    "SZP2" 0, "XPN1" 0, "XPN2" 0, "YPN1" 0, "YPN2" 0;
+}
+
+.col-auto {
+  display: flex;
+  align-items: center;
+}
+
+#pokemon-name::placeholder {
+  color: hsla(197, 82%, 55%, 0.644);
+  /* placeholder text color */
+  opacity: 1;
+  /* required for some browsers */
+}
+
+#pokemon-name {
+  color: hsla(197, 82%, 55%, 0.644);
+  /* placeholder text color */
+  background-color: hsl(197, 82%, 55%, 0.111);
+}
+
+#pokemon-type::placeholder {
+  color: hsl(84, 100%, 59%);
+}
+
+#pokemon-type {
+  color: hsl(84, 100%, 59%);
+  /* this applies to any text, typed or set via JS */
+  background-color: hsla(84, 100%, 59%, 0.318);
+}
