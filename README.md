@@ -3,7 +3,7 @@
 A simple yet fun mini project that fetches and displays Pokémon types using the official PokéAPI.
 Built as my first step into web development, this project helped me understand how APIs work, how to handle user input, and how to display data dynamically on a web page.
 
-🔗 Live Demo: (vaibhav-raj-codes.github.io/poke)
+🔗 Live Demo:   [poke-finder](https://vaibhav-raj-codes.github.io/poke/)
 
 🚀 Features
 
